@@ -1,0 +1,40 @@
+<div id="word-profile" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Delete word</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <form role="form" id="wordProfile-form" onsubmit="return false;">
+                <div class="modal-body">
+                    <div class="container col-6 text-center">
+                        <div class="form-group text-center">
+                            <div>
+                                <label for="id">ID</label>
+                                <input type="text" class="form-control" name="id" id="id" readonly>
+                            </div>
+                            <div>
+                                <label for="russianName">Russian name</label>
+                                <input type="text" class="form-control" name="russianName" id="russianName">
+                            </div>
+                            <div>
+                                <label for="englishName">English name</label>
+                                <input type="text" class="form-control" name="englishName" id="englishName">
+                            </div>
+                            <div>
+                                <label for="popular">Popular</label>
+                                <input type="number" class="form-control" name="popular" id="popular">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn submit">Action</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
